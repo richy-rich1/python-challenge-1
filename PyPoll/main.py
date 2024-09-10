@@ -2,7 +2,7 @@
 import os
 import csv
 
-# Assign file location with the pathlib library
+# Assign file location 
 election_data_csv = os.path.join("Resources", "election_data.csv")
 
 # Declare Variables 
