@@ -23,7 +23,7 @@ with open(election_data_csv,newline="", encoding="utf-8") as elections:
     # Iterate through each row in the csv
     for row in csvreader: 
 
-        # Count the unique Voter ID's and store in variable  called total_votes
+        # Count the unique Ballot ID's and store in variable  called total_votes
         total_votes +=1
 
         # We have three candidates if the name is found, count the times it appears and store in a list
